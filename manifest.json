@@ -100,18 +100,6 @@
       "world": "MAIN"
     },
     {
-      "exclude_matches": [
-        "https://secure.aleks.com/*"
-      ],
-      "js": [
-        "goguardian-9.js"
-      ],
-      "matches": [
-        "<all_urls>"
-      ],
-      "run_at": "document_idle"
-    },
-    {
       "all_frames": true,
       "exclude_matches": [
         "https://secure.aleks.com/*"
