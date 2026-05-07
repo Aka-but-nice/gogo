@@ -1,10 +1,5 @@
 {
   "action": {
-    "default_icon": {
-      "128": "icons/static-light-128.png",
-      "16": "icons/static-light-16.png",
-      "32": "icons/static-light-32.png",
-      "48": "icons/static-light-48.png"
     },
     "default_title": "GoGuardian"
   },
@@ -245,12 +240,6 @@
   "host_permissions": [
     "<all_urls>"
   ],
-  "icons": {
-    "128": "icons/static-light-128.png",
-    "16": "icons/static-light-16.png",
-    "32": "icons/static-light-32.png",
-    "48": "icons/static-light-48.png"
-  },
   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPdMH1s/Pt9zfEC6GU2YAky8AtlEeTgKWRZPt5MNMRCz4tp1l5zVnNj12ZFT/7ujt7zND5JL5ucGlsQBSV6GlZHN/ZpP3n6RadQUsGG9IRjvxtUYh2h1hc1GMFAe+E3yLYC9NvgxRbOS3Xdphv0JwokgGXov2oJjledjctWGDluQIDAQAB",
   "manifest_version": 3,
   "name": "GoGuardian",
@@ -275,23 +264,5 @@
     "webRequestBlocking"
   ],
   "update_url": "https://ext.goguardian.com/stable.xml",
-  "version": "4.1.227",
-  "web_accessible_resources": [
-    {
-      "matches": [
-        "*://*/*"
-      ],
-      "resources": [
-        "explicit-image-filter/*"
-      ]
-    },
-    {
-      "matches": [
-        "*://*/*"
-      ],
-      "resources": [
-        "icons/*"
-      ]
-    }
-  ]
+  "version": "4.1.227"
 }
