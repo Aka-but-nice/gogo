@@ -207,19 +207,7 @@
       "run_at": "document_start",
       "world": "MAIN"
     },
-    {
-      "all_frames": true,
-      "exclude_matches": [
-        "https://secure.aleks.com/*"
-      ],
-      "js": [
-        "goguardian-18.js"
-      ],
-      "matches": [
-        "<all_urls>"
-      ],
-      "run_at": "document_idle"
-    },
+  
     {
       "all_frames": false,
       "js": [
