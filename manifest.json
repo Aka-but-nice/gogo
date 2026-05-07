@@ -1,8 +1,7 @@
 {
   "action": {
+        "default_title": "GoGuardian"
     },
-    "default_title": "GoGuardian"
-  },
   "background": {
     "service_worker": "./background.js"
   },
